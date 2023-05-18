@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {background-color: black;}
+
+.main {
+  margin-left: 180px;
+  margin-top: 5%;
+  margin-right: 189px;
+}
+
+.about__section--heading {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 52px;
+  
+  /* identical to box height, or 124% */
+  letter-spacing: -0.4px;
+  
+  color: #42446E;
+
+}
+
+.about__section--paragraph {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  width: auto;
+  
+  /* or 144% */
+  
+  /* dark content */
+  color: #fff;
+}
